@@ -6,17 +6,18 @@ With the increasing richness of data from multiple sources, the size of the pool
 This study illustrates the variable selection methods considered and used in the small area estimation (SAE) modeling of measures related to the proficiency of adult competency, constructed using survey data collected in the first cycle of PIAAC. The developed variable selection process consists of two phases: 
 
 -Phase 1 identifies a small set of variables that are consistently highly correlated with the outcomes through methods such as correlation matrix and multivariate LASSO analysis; 
+
 -Phase 2 utilizes a k-fold cross-validation process to select a final set of variables to be used in the final SAE models.
 
 ## Traditional variable selection methods
 
 Traditional variable selection methods which are commonly applied in linear and generalized linear models include:
 
-(1) significance criteria: likelihood ratio test (or Wald test), and stepwise (forward or backward) variable selection algorithms; 
-(2) information criteria: Akaike information criterion (AIC) and Bayesian information criterion (BIC); 
-(3) regularization criteria: least angle selection and shrinkage operator (LASSO) (Tibshirani, 1997); 
-(4) association criteria: decision trees, random forests (Breiman et al., 1984); 
-(5) cross-validation criteria (Shao, 1993); and 
+(1) significance criteria: likelihood ratio test (or Wald test), and stepwise (forward or backward) variable selection algorithms;             
+(2) information criteria: Akaike information criterion (AIC) and Bayesian information criterion (BIC);            
+(3) regularization criteria: least angle selection and shrinkage operator (LASSO) (Tibshirani, 1997);             
+(4) association criteria: decision trees, random forests (Breiman et al., 1984);            
+(5) cross-validation criteria (Shao, 1993); and             
 (6) expert-knowledge criteria. 
 
 There is, however, no single universally applicable variable selection method that fits all models, especially when the target models are complex. 
@@ -25,10 +26,10 @@ There is, however, no single universally applicable variable selection method th
 
 In this project, we describe the variable selection process adopted for the National Center for Education Statistics’ (NCES’s) Program for the International Assessment of Adult Competencies (PIAAC) of the U.S. The goal was to identify and select the best set of dependent variables to be used in the SAE models developed for estimating adult competency outcomes. A two-phase variable selection process is proposed: 
 
-1. Phase 1: reduce the variables to a smaller set;
+1. Phase 1: reduce the variables to a smaller set;          
 2. Phase 2: use a k-fold cross-validation process to arrive at the final set of variables. 
 
-1[](VS_SAE.png)
+[](VS_SAE.png)
 
 
 ### Phase 1 - variable reduction
